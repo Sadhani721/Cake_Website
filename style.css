@@ -34,12 +34,21 @@ body{
     text-align: center;
     background-color: var(--main-color);
     color: #fff;
-    font-size: 1.7rem;
-    padding: 0.8rem 2.5rem;
+    font-size: 2.4rem;
+    padding: 1.5rem 4rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2rem;
 }
 
 .btn:hover{
     letter-spacing: 0.2rem;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    background-color: #00b398;
 }
 .title{
     text-shadow: 2px 2px 0 var(--card-color),   -2px  -2px  0 var(--card-color), -2px  -2px  0 var(--card-color);
@@ -119,7 +128,8 @@ margin-left: 2rem;
 
 .home .hero{
     width: 60rem;
-    
+    margin-left: 3rem;
+    padding-left: 2rem;
 
 }
 
@@ -129,11 +139,16 @@ margin-left: 2rem;
     color: #fff;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 
                  1px 1px 3px rgba(0, 0, 0, 0.9);
+    margin-left: 3rem;
+    padding-left: 2rem;             
 }
 
 .home .hero p{
     font-size: 1.5rem;
     color: white;
+    margin-left: 3rem;
+    padding-left: 2rem;
+    
 }
 
 
